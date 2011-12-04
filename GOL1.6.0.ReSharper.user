@@ -3,25 +3,10 @@
     <Session>
       <Name>Session #1</Name>
       <Elements>
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests" type="NUnitTestFixtureElement" Project="EC6A851A-834E-4923-84E9-354BBFD380E9" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_1__Alive_Cell_With_0_or_1_Neighbors_Should_Be_Alive" ParentId="GOL1.Tests.GOL1Tests" type="NUnitTestElement" TypeName="GOL1.Tests.GOL1Tests" MethodName="Rule_1__Alive_Cell_With_0_or_1_Neighbors_Should_Be_Alive" Project="EC6A851A-834E-4923-84E9-354BBFD380E9" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_2__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive" ParentId="GOL1.Tests.GOL1Tests" type="NUnitTestElement" TypeName="GOL1.Tests.GOL1Tests" MethodName="Rule_2__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive" Project="EC6A851A-834E-4923-84E9-354BBFD380E9" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die" ParentId="GOL1.Tests.GOL1Tests" type="NUnitTestElement" TypeName="GOL1.Tests.GOL1Tests" MethodName="Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die" Project="EC6A851A-834E-4923-84E9-354BBFD380E9" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_4__Dead_Cell_With_3_Neighbors_Should_Become_Alive" ParentId="GOL1.Tests.GOL1Tests" type="NUnitTestElement" TypeName="GOL1.Tests.GOL1Tests" MethodName="Rule_4__Dead_Cell_With_3_Neighbors_Should_Become_Alive" Project="EC6A851A-834E-4923-84E9-354BBFD380E9" />
         <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.z_BONUS__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive" ParentId="GOL1.Tests.GOL1Tests" type="NUnitTestElement" TypeName="GOL1.Tests.GOL1Tests" MethodName="z_BONUS__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive" Project="EC6A851A-834E-4923-84E9-354BBFD380E9" />
         <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.z_BONUS__Alive_Cell_With_Other_Than_2_or_3_Neighbors_Should_Die" ParentId="GOL1.Tests.GOL1Tests" type="NUnitTestElement" TypeName="GOL1.Tests.GOL1Tests" MethodName="z_BONUS__Alive_Cell_With_Other_Than_2_or_3_Neighbors_Should_Die" Project="EC6A851A-834E-4923-84E9-354BBFD380E9" />
         <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.z_BONUS__Dead_Cell_With_3_Neighbors_Should_Become_Alive" ParentId="GOL1.Tests.GOL1Tests" type="NUnitTestElement" TypeName="GOL1.Tests.GOL1Tests" MethodName="z_BONUS__Dead_Cell_With_3_Neighbors_Should_Become_Alive" Project="EC6A851A-834E-4923-84E9-354BBFD380E9" />
         <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.z_BONUS__Dead_Cell_With_Other_Than_2_or_3_Neighbors_Should_Die" ParentId="GOL1.Tests.GOL1Tests" type="NUnitTestElement" TypeName="GOL1.Tests.GOL1Tests" MethodName="z_BONUS__Dead_Cell_With_Other_Than_2_or_3_Neighbors_Should_Die" Project="EC6A851A-834E-4923-84E9-354BBFD380E9" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_1__Alive_Cell_With_0_or_1_Neighbors_Should_Be_Alive(ALIVE,0)" ParentId="GOL1.Tests.GOL1Tests.Rule_1__Alive_Cell_With_0_or_1_Neighbors_Should_Be_Alive" type="NUnitRowTestElement" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_1__Alive_Cell_With_0_or_1_Neighbors_Should_Be_Alive(ALIVE,1)" ParentId="GOL1.Tests.GOL1Tests.Rule_1__Alive_Cell_With_0_or_1_Neighbors_Should_Be_Alive" type="NUnitRowTestElement" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_2__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive(ALIVE,2)" ParentId="GOL1.Tests.GOL1Tests.Rule_2__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive" type="NUnitRowTestElement" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_2__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive(ALIVE,3)" ParentId="GOL1.Tests.GOL1Tests.Rule_2__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive" type="NUnitRowTestElement" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die(ALIVE,4)" ParentId="GOL1.Tests.GOL1Tests.Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die" type="NUnitRowTestElement" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die(ALIVE,5)" ParentId="GOL1.Tests.GOL1Tests.Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die" type="NUnitRowTestElement" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die(ALIVE,6)" ParentId="GOL1.Tests.GOL1Tests.Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die" type="NUnitRowTestElement" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die(ALIVE,7)" ParentId="GOL1.Tests.GOL1Tests.Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die" type="NUnitRowTestElement" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die(ALIVE,8)" ParentId="GOL1.Tests.GOL1Tests.Rule_3__Alive_Cell_With_More_Than_3_Neighbors_Should_Die" type="NUnitRowTestElement" />
-        <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.Rule_4__Dead_Cell_With_3_Neighbors_Should_Become_Alive(DEAD,3)" ParentId="GOL1.Tests.GOL1Tests.Rule_4__Dead_Cell_With_3_Neighbors_Should_Become_Alive" type="NUnitRowTestElement" />
         <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.z_BONUS__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive(THREE)" ParentId="GOL1.Tests.GOL1Tests.z_BONUS__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive" type="NUnitRowTestElement" />
         <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.z_BONUS__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive(TWO)" ParentId="GOL1.Tests.GOL1Tests.z_BONUS__Alive_Cell_With_2_or_3_Neighbors_Should_Be_Alive" type="NUnitRowTestElement" />
         <UnitTestElement Provider="nUnit" Id="GOL1.Tests.GOL1Tests.z_BONUS__Alive_Cell_With_Other_Than_2_or_3_Neighbors_Should_Die(ALIVE,0)" ParentId="GOL1.Tests.GOL1Tests.z_BONUS__Alive_Cell_With_Other_Than_2_or_3_Neighbors_Should_Die" type="NUnitRowTestElement" />
@@ -48,7 +33,7 @@
       <File id="EC6A851A-834E-4923-84E9-354BBFD380E9/d:Implementation/f:State.cs" caret="122" fromTop="7" />
       <File id="EC6A851A-834E-4923-84E9-354BBFD380E9/d:Implementation/f:Program.cs" caret="0" fromTop="0" />
       <File id="EC6A851A-834E-4923-84E9-354BBFD380E9/d:Implementation/f:RuleEngine.cs" caret="219" fromTop="15" />
-      <File id="EC6A851A-834E-4923-84E9-354BBFD380E9/d:Tests/f:COL1Tests.cs" caret="1528" fromTop="33" />
+      <File id="EC6A851A-834E-4923-84E9-354BBFD380E9/d:Tests/f:COL1Tests.cs" caret="2145" fromTop="4" />
     </RecentFiles>
     <RecentEdits>
       <File id="EC6A851A-834E-4923-84E9-354BBFD380E9/d:Tests/f:COL1Tests.cs" caret="4050" fromTop="25" />
