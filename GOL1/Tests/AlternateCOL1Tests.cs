@@ -19,12 +19,13 @@ namespace GOL1.Tests
 
         [TestCase(LiveNeighbors.ZERO)]
         [TestCase(LiveNeighbors.ONE)]
+        [TestCase(LiveNeighbors.TWO)]
         [TestCase(LiveNeighbors.FOUR)]
         [TestCase(LiveNeighbors.FIVE)]
         [TestCase(LiveNeighbors.SIX)]
         [TestCase(LiveNeighbors.SEVEN)]
         [TestCase(LiveNeighbors.EIGHT)]
-        public void Dead_Cell_With_Other_Than_2_or_3_Neighbors_Should_Stay_Dead(int numNeighbors)
+        public void Dead_Cell_With_Other_Than_3_Neighbors_Should_Stay_Dead(int numNeighbors)
         {
             Assert.AreEqual(State.DEAD, _ruleEngine.GetNextCellState(State.DEAD, numNeighbors));
         }

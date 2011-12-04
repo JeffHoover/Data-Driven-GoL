@@ -1,5 +1,24 @@
 I started this as a data-driven example of Conway's Game of Life
 at the Global Day of Code Retreat in Ann Arbor, Michigan
 
-Patrick Welsh gave me some ideas to make it more readable.
+Patrick Welsh gave me some ideas to make it more readable, including
+a reduction in the duplication of the table data and the LiveNeighbors
+enum instead of magic numbers.
 
+
+I have provided two styles of tests. Each style fully covers the behavior
+of GoL. The names of the first kind all start with "Rule_" and correspond 
+to rules 1-4 as listed in Wikipedia.
+
+The other set of tests all have names starting with "Alive" or "Dead". They
+correspond to the grid that Patrick suggested:
+
+Num Alive Neighbors          : 0 1 2 3 4 5 6 7 8 9
+Cell Initially Alive Becomes : D D A A D D D D D D
+Cell Initially Dead Becomes  : D D D A D D D D D D
+Which shows that there are only 3 cases of 18 in which a cell becomes or stays
+alive.
+
+I'm still not happy with how the Asserts read. I'll have to figure out
+how to improve them. But the test names, data tables, and test results
+are pretty easy to read.
