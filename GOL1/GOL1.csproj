@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Tests\AlternateCOL1Tests.cs" />
     <Compile Include="Tests\COL1Tests.cs" />
     <Compile Include="Implementation\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

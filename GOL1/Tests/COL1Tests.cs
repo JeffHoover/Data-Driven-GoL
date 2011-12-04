@@ -3,7 +3,7 @@
 namespace GOL1.Tests
 {
     [TestFixture]
-    public class GOL1Tests
+    public partial class GOL1Tests
     {
 #region setup
         RuleEngine _ruleEngine;
